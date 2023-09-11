@@ -1,8 +1,6 @@
-from class_api import HeadHunterAPI, Vacancy, JSONSaver
+from class_api import user_interaction
 
-a = HeadHunterAPI()
-b = a.get_vacancies('Python')
-c = JSONSaver()
-n = c.add_vacancy(b)
+if __name__ == "__main__":
+    user_interaction()
 
-print(b)
+
