@@ -129,7 +129,7 @@ def print_vacancy(list_vacancy):
 название:{vacancy.name}
 ссылка:{vacancy.url}
 зарплата от:{vacancy.salary_from}
-зарпалата до:{vacancy.salary_to}
+зарплата до:{vacancy.salary_to}
 валюта:{vacancy.currency}
 требования:{vacancy.requirements}""")
 
